@@ -1,0 +1,14 @@
+img {
+    /* nao cresce mais q o tamanho de 100% */
+    max-width: 100%;
+    /*width: 100%;*/
+    display: block;
+}
+
+div {
+    width: 200px;
+}
+
+.foto {
+    width: 150px;
+}

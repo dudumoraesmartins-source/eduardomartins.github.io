@@ -1,0 +1,43 @@
+div {
+    padding: 20px 40px;
+    margin: 30px 100px 60x 200px;
+    /* sempre começã pelo Top Right Bottom Left
+    Cima Direita Baixo Esquerda
+    Com 2 valores, é só top e bottom
+    */
+}
+
+div {
+    padding: top/bottom right/left;
+    margin: top right bottom left;
+}
+
+span{
+    display: inline-block;
+    background: #ddd;
+}
+
+/* span{
+    padding: 30px;
+    padding: 20px 40px;
+    padding: 40px 100px 200px 10px;
+} */
+
+/* span{
+    margin: 30px;
+    margin: 20px 40px;
+    margin: 40px 100px 200px 10px;
+} */
+
+span {
+    padding: 30px;
+    padding: 20px 40px;
+    padding: 40px 100px 200px 10px;
+    border: 10px solid black;
+    border-width: 30px 60px;
+}
+
+h1 {
+    margin-block-start: 30px;
+    margin-block-end: 0px;
+}

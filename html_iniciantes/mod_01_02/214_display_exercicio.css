@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+}
+
+span {
+    color: #febe01;
+}
+
+.item_01 {
+    background: #111;
+    color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+p {
+    color: #b2b2b2
+}
+
+a {
+    display: inline-block;
+    background: #febe01;
+    color: #332200;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* 
+Amarelo 1 (preço/botão): #febe01
+Amarelo 2 (color botão): #332200
+Preto: #111
+Cinza: #b2b2b2
+
+-- Font: Arial
+-- Alinhar texto ao centro: text-align: center;
+Arredondar bordas: border-radius: 4px;
+
+-- Título principal: h1;
+-- Nome do Produto: h2;
+
+-- Textos:
+-- Carros e Bicicletas
+-- Carro: R$ 1999
+-- Carro modelo 2045, com 200km rodados.
+
+-- Bicicletas: R$ 199
+-- Bicicleta modelo 2050, com 20km rodados.
+
+*/

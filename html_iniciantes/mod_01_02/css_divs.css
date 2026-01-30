@@ -1,0 +1,30 @@
+a {
+    color: rgba(255,255,255, 1.0);
+    /*background: black;
+    font-size: 52px;*/
+}
+
+div {
+    background: #aaa;
+    /*width: auto;*/
+    width: 140px;
+    /*height: auto*/
+    height: 180px;
+    padding: 30px;
+    border: 10px solid #111;
+    margin: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    background: #84e;
+    padding: 20px;
+    /* QUEBROU A LINHA */
+    /*width: 100px;*/
+    border: 4px solid #111;
+    /* AS MARGENS COLIDEM, COMO 40 É MAIOR QUE 30, ENTÃO PREVALECE 40 */
+    margin: 40px;
+}

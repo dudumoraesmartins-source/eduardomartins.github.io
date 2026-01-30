@@ -1,0 +1,20 @@
+Pontos de referencia
+main
+nav
+section
+article
+aside
+footer
+header
+
+
+main -> marca o conteúdo principal.
+nav -> marca um bloco de navegação.
+
+aria-label = atributo focado em acessibilidade - dá uma etiqueta para o atributo
+
+article -> região do site que é autoexplicativa (encapsular uma postagem)
+section -> usado para agrupar o conteúdo - normalmente agrupa article
+
+aside -> marca o conteúdo complementar ao principal
+footer -> marca o rodapé do site

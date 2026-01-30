@@ -1,0 +1,32 @@
+img {
+    /* ISSO DEFINE A IMAGEM COMO RESPONSIVA */
+    max-width: 100%;
+    display: block;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+h1 {
+    grid-column: 1 / -1;
+}
+
+/* < que 600 px tem que ser depois que o definido */
+@media (max-width: 1000px) {
+    div {
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        background: lightblue;
+    }
+}
+
+/* da para usar operadores logicos and */
+@media (min-width: 1000px) {
+    html {
+        font-size: 150%;
+    }
+}

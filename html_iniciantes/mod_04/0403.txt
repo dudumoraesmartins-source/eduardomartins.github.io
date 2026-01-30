@@ -1,0 +1,3 @@
+Listas
+
+tag ul marca uma lista de itens sem ordem, cada lista usa <li></li>

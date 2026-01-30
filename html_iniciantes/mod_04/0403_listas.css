@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    /* square
+    square url
+    inside ou outside */
+}
+
+dl, 
+dd {
+    margin: 0px;
+}

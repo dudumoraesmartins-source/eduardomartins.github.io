@@ -1,0 +1,5 @@
+blockquote -> adiciona identação para citação
+q -> envolve em aspsas o conteúdo, para dizer q é uma citação
+cite -> citação de obras, coloca o nome do livro ou filme específico - colcoa em itálico
+em -> enfase em um conteúdo, aplica o itálico
+strong -> marca uma parte importante do conteúdo, escreve em negrito

@@ -1,0 +1,32 @@
+/* Adiciona identificador único na tag = Seleciona elementos nomeid
+#logo {
+    color:gold
+}
+*/
+
+/* class atributo html pode repetir e usar varias vezes */
+#introducao{
+    color: gold
+}
+
+/*
+.codigo{
+    color:blue
+}
+*/
+
+.codigo .design{
+    color:red
+}
+
+.azul {
+    color: blue
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.grande {
+    font-size: 32px;
+}

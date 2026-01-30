@@ -1,0 +1,21 @@
+body {
+    /*margin: 0px;*/
+    color: seagreen;
+}
+
+a {
+    /* para poder mudar a cor do link, preciso selecioanr a 
+    inherit é o valor inicial do color*/
+    color: inherit;
+}
+/*
+h1,
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+h1 {
+    color: seagreen;
+}*/

@@ -1,0 +1,44 @@
+/* A ORDEM SÓ IMPORTA SE ELES POSSUÍREM A MESMA ESPECIFICIDADE CASO CONTRÁRIO,
+O SELETOR MAIS ESPECÍFICO IRÁ PREVALECER
+
+ID (1, 0, 0) = PRIMEIRO NÍVEL
+CLASSES, ATRIBUTOS E PSEUDO CLASSES (0, 1, 0) = SEGUNDO NÍVEL
+ELEMENTOS E PSUDO ELEMENTOS (0, 0, 1) = TERCEIRO NÍVEL
+*/
+
+
+body {
+    font-size: 2rem;
+}
+
+.titulo {
+    color: tomato;
+    padding: 10px;
+}
+
+#produtos {
+    color: lightgreen;
+}
+
+#intro #servicos {
+    color: red;
+}
+
+.titulo.teste {
+    color: blue;
+}
+
+
+html body section h2 {
+    border-left: 8px solid lightgreen;
+}
+
+body section h2 {
+    border-left: 8px solid lightsalmon;
+}
+
+
+/* QUEBRA TODO RESTO DAS ORDENS ESPECÍFICAS */
+h2 {
+    color: black !important;
+}

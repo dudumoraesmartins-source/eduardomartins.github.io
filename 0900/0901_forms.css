@@ -15,6 +15,48 @@ input {
 }
 
 button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    background: #caf;
+    border: none;
+    color: #217;
+    border-radius: 4px;
     margin-top: 30px;
     display: block;
+    cursor: pointer;
 }
+
+.checkbox,
+.radio {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.checkbox label,
+.radio label {
+    margin: 0px;
+    display: inline-block;
+}
+
+.checkbox input,
+.radio input {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+
+select {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+textarea {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

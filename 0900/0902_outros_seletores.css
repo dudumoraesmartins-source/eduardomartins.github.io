@@ -1,0 +1,54 @@
+[required] {
+    border: 2px solid tomato;
+}
+
+
+a[href="#contato"] {
+    border: 2px solid greenyellow;
+}
+
+/* link interno
+[href^="#"] {
+    background: tomato;
+}
+
+terminar com 
+[href$=".com"] {
+    background: forestgreen;
+} */
+
+section > h2 {
+    color: tomato;
+}
+
+p {
+    margin: 0px;
+}
+
+article {
+    background: lightgreen;
+    padding: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* article p:last-child {
+    margin-bottom: 0px;
+}*/
+
+/* SÓ VAI SOMAR O P QUE VIER APÓS OUTRO P */
+p + p {
+    margin-top: 20px;
+}
+
+
+body {
+    color: blue;
+}
+
+
+* {
+    border: 2px solid red;
+}

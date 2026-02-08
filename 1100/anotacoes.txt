@@ -1,0 +1,6 @@
+perguntas básicas sobre dom
+
+quais elementos serão observados/modificados ?
+quais eventos serão observados ?
+quais informações dos elementos/browser precisamos ?
+quais informações dos elementos/browser serão alteradas ?
